@@ -6,18 +6,21 @@ A small CRUD (Create, Read, Update, Delete) API for managing a to-do list, built
 
 1. Clone this repo and open a terminal in the project folder.
 2. Create and activate a virtual environment:
-
+```
 python3 -m venv venv
-venv\Scripts\activate # Windows
-source venv/bin/activate # Mac/Linux
+venv\Scripts\activate       # Windows
+source venv/bin/activate    # Mac/Linux
+```
 
 3. Install dependencies:
-
+```
 pip install fastapi uvicorn
+```
 
 4. Run the server:
-
+```
 uvicorn main:app --reload
+```
 
 5. Visit `http://localhost:8000/` in your browser, or `http://localhost:8000/docs` for the interactive Swagger UI.
 
